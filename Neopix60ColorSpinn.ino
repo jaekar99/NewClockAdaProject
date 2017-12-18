@@ -1,4 +1,3 @@
-
 //  Includes below:
 #include <Wire.h>
 #include <stdio.h>
@@ -173,32 +172,32 @@ void loop()
    //  Keep this at the top so it doesn't mess up any other settings when LEDs are
    //  turned on.  This is where you set the brightness of the second hand trailing leds.  
    //  Set the last part 0xXX to a number between 55 and 0.  Zero returns the LED to off.
-   strip.setPixelColor(second_led-1,0x08);
-   strip.setPixelColor(second_led-2,0x06);
-   strip.setPixelColor(second_led-3,0x04);
-   strip.setPixelColor(second_led-4,0x02);
-   strip.setPixelColor(second_led-5,0x0);
+   strip.setPixelColor(second_led-1,0x55);
+   strip.setPixelColor(second_led-2,0x44);
+   strip.setPixelColor(second_led-3,0x33);
+   strip.setPixelColor(second_led-4,0x22);
+   strip.setPixelColor(second_led-5,0x11);
 
   //
   //  show THREE, SIX, NINE and TWELVE
   //
   
-  strip.setPixelColor (THREE, 0x050505);
-  strip.setPixelColor (SIX, 0x111100);
-  strip.setPixelColor (NINE, 0x050505);
-  strip.setPixelColor (TWELVE, 0x111100);
+  strip.setPixelColor (THREE, 0x333300);
+  strip.setPixelColor (SIX, 0x555500);
+  strip.setPixelColor (NINE, 0x333300);
+  strip.setPixelColor (TWELVE, 0x555500);
   
   //
   //  show the other numbers.   (Optional)
   //
-  strip.setPixelColor(4, 0x050505);
-  strip.setPixelColor(9, 0x050505);
-  strip.setPixelColor(19, 0x050505);
-  strip.setPixelColor(24, 0x050505);
-  strip.setPixelColor(34, 0x050505);
-  strip.setPixelColor(39, 0x050505);
-  strip.setPixelColor(49, 0x050505);
-  strip.setPixelColor(54, 0x050505);
+  strip.setPixelColor(4, 0x333333);
+  strip.setPixelColor(9, 0x333333);
+  strip.setPixelColor(19, 0x333333);
+  strip.setPixelColor(24, 0x333333);
+  strip.setPixelColor(34, 0x333333);
+  strip.setPixelColor(39, 0x333333);
+  strip.setPixelColor(49, 0x333333);
+  strip.setPixelColor(54, 0x333333);
 
 
   //
@@ -427,3 +426,4 @@ void theaterChaseRainbow(uint8_t wait) {
 //    end of code
 //
 //==================================================================﻿
+
