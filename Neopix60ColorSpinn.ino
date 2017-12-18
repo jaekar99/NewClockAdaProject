@@ -176,7 +176,7 @@ void loop()
    strip.setPixelColor(second_led-2,0x44);
    strip.setPixelColor(second_led-3,0x33);
    strip.setPixelColor(second_led-4,0x22);
-   strip.setPixelColor(second_led-5,0x11);
+   strip.setPixelColor(second_led-5,0x00);
 
   //
   //  show THREE, SIX, NINE and TWELVE
